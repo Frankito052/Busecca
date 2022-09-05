@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 11</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg navBar">
+        <div id="navBar-container" class="container-fluid navBar__container">
+          <div>
+            <a class="navbar-brand navLink" href="#">Busecca</a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active navLink"
+                  aria-current="page"
+                  href="#main"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink" href="#menu">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink" href="#about">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active navLink" href="#reserv">Reserva</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="main" class="hero">
+        <h1 class="heroTitle">BUSECCA</h1>
+        <p class="heroPar">Meriendas para Disfrutar</p>
+      </section>
+      <section id="menu" class="menuSect">
+        <div class="container-fluid">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8 menuList">
+              <h2 class="menuTitle">Menú</h2>
+              <h3 class="menuOrder">Meriendas Individuales</h3>
+              <ul class="menuList1">
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Bagel Salado</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Bagel Dulce</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Tostado JYQ</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Panqueque</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Medialuna JYQ</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Avocado Toast</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Waffle</h4>
+                  <p>Precio</p>
+                </li>
+              </ul>
+              <h3 class="menuOrder">INFUSIONES</h3>
+              <ul class="menuList1">
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Licuado</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Exprimido</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Limonada</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Café</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Americano</h4>
+                  <p>Precio</p>
+                </li>
+                <li class="menuItem">
+                  <h4 class="menuOrder1">Café con Leches</h4>
+                  <p>Precio</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="aboutSect">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="aboutTitle">Sobre Nosotros</h2>
+              <p class="aboutPar">
+                En Busecca traemos una de las mejores propuestas gastronómicas elaboradas con amor, de la cocina a la mesa. Todo lo necesario para disfrutar tus tardes con tus personas favoritas. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reserv" class="reservSect">
+        <div class="container-fluid">
+          <div class="row">
+            <h2 class="reservTitle">Reservá tu Lugar</h2>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Día</label>
+                <input type="date" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Reservar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="foot">
+      <div class="container">
+        <div class="row">
+          <div class="footLinks">
+          <box-icon class="footLogo" type='logo' name='instagram' color="white" size="lg"></box-icon>
+          <box-icon class="footLogo" type='logo' name='facebook-circle' color="white" size="lg"></box-icon>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <img class="wspLogo" src="./images/wsLogo.png" alt="">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  </body>
+</html>

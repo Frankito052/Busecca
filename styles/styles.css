@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  padding: 0;
+  margin: 0;
+}
+
+h4{
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+body{
+  background-color: #111;
+}
+
+.navBar {
+  background-color: black;
+  font-weight: 600;
+}
+
+#navBar-container{
+  justify-content: space-between;
+}
+
+#navbarNav{
+  justify-content: flex-end;
+}
+
+.navLink {
+  color: white;
+  text-align: center;
+}
+
+.navbar-brand{
+  font-size: x-large;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/heroBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.heroTitle {
+  color: white;
+  font-size: xxx-large;
+  letter-spacing: .5px;
+}
+
+.heroPar {
+  color: white;
+  font-size: x-large;
+  letter-spacing: .3px;
+}
+
+/* --------------------------------------------MENU SECTION---------------------------------------*/
+
+.menuSect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  background-image: url(../images/menuBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuTitle{
+  color: white;
+  font-size: xxx-large;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: .5px;
+  padding-top: 1rem .5rem;
+  text-decoration: underline;
+}
+
+.menuList {
+  color: white;
+  padding: 0 1.5rem;
+}
+
+.menuList1{
+  list-style: inside;
+}
+
+.menuOrder{
+  text-align: center;
+  padding: 1rem;
+}
+
+.menuOrder1 {
+  font-size: medium;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+/*---------------------------------------ABOUT-----------------------------------------*/
+
+.aboutSect{
+  background-color: #111;
+  color: white;
+  padding: 1rem 0;
+}
+
+.aboutTitle {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  letter-spacing: .8px;
+  text-shadow: 2px 1px #555;
+}
+
+.aboutPar {
+  text-align: center;
+  letter-spacing: .5px;
+  padding: 0 1rem;
+}
+
+.aboutImg{
+  width: 100%;
+}
+
+
+/*-----------------------------------RESERVATION----------------------------------------------------*/
+
+.reservSect{
+  background-color: #222;
+  color: white;
+  padding: 1rem 0;
+}
+
+.reservTitle{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+/*------------------------------------------FOOTER------------------------------------------------*/
+
+.foot{
+  background-color: #111;
+}
+
+.footLinks{
+  display: flex;
+  justify-content: center;
+}
+
+.footLogo{
+  margin: 0 1rem;
+}
+
+.wspLogo {
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
